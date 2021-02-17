@@ -38,7 +38,6 @@ public class CalculeController {
 	double Soustraire;
 	double Multiplication;
 	double Division;
-	String temphold;
 	DecimalFormat nformat = new DecimalFormat("#0.00");
 
     @FXML
@@ -57,8 +56,7 @@ public class CalculeController {
     				alert.show();
     			}
 			Somme = PremNombre + DeuxiemeNombre;
-			temphold = Double.toString(Somme);
-			lblResultat.setText(String.format("%.2f",temphold));
+			lblResultat.setText(String.format("%.2f",Somme));
     }
 
     @FXML
@@ -77,8 +75,7 @@ public class CalculeController {
     				alert.show();
     			}
     		Soustraire = PremNombre - DeuxiemeNombre;
-    		temphold = Double.toString(Soustraire);
-    		lblResultat.setText(String.format("%.2f",temphold));
+    		lblResultat.setText(String.format("%.2f",Soustraire));
 
     }
 
@@ -98,8 +95,7 @@ public class CalculeController {
     				alert.show();
     			}
     		Multiplication = PremNombre*DeuxiemeNombre;
-    		temphold = Double.toString(Multiplication);
-    		lblResultat.setText(String.format("%.2f",temphold));
+    		lblResultat.setText(String.format("%.2f",Multiplication));
 
     }
 
@@ -119,8 +115,7 @@ public class CalculeController {
     				alert.show();
     			}
     		Division = PremNombre/DeuxiemeNombre;
-    		temphold = Double.toString(Division);
-    		lblResultat.setText(String.format("%.2f",temphold));
+    		lblResultat.setText(String.format("%.2f",Division));
 
     }
 
