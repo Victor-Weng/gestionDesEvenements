@@ -9,8 +9,10 @@
    <children>
       <TextField fx:id="txtPremiere" layoutX="111.0" layoutY="177.0" promptText="Premiere Nombre" />
       <TextField fx:id="txtDeuxieme" layoutX="323.0" layoutY="177.0" promptText="Deuxieme Nombre" />
-      <Button fx:id="btnAddition" layoutX="195.0" layoutY="283.0" mnemonicParsing="false" onAction="#Addition" prefHeight="31.0" prefWidth="103.0" text="Addition" />
-      <Button fx:id="btnSoustraction" layoutX="323.0" layoutY="283.0" mnemonicParsing="false" onAction="#Soustraction" text="Soustraction" />
+      <Button fx:id="btnAddition" layoutX="92.0" layoutY="283.0" mnemonicParsing="false" onAction="#Addition" prefHeight="31.0" prefWidth="103.0" text="Addition" />
+      <Button fx:id="btnSoustraction" layoutX="211.0" layoutY="283.0" mnemonicParsing="false" onAction="#Soustraction" text="Soustraction" />
       <Label fx:id="lblResultat" alignment="CENTER" layoutX="195.0" layoutY="228.0" prefHeight="31.0" prefWidth="238.0" text="Resultat" textFill="#bf1e1e" />
+      <Button fx:id="btnMultiplication" layoutX="330.0" layoutY="283.0" mnemonicParsing="false" onAction="#Multiplication" prefHeight="31.0" prefWidth="103.0" text="Multiplication" />
+      <Button fx:id="btnDivision" layoutX="450.0" layoutY="283.0" mnemonicParsing="false" onAction="#Division" prefHeight="31.0" prefWidth="103.0" text="Division" />
    </children>
 </AnchorPane>
